@@ -66,7 +66,7 @@ The contents of the `Runs` folder is as follows
 
 
 
-## 3. Content of every box_ folder
+## 3. Content of every `box_` folder
 
 In every `box_${NP}p_${L}Mpc` folder you find:
 
