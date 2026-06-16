@@ -66,7 +66,7 @@ Let’s inspect together the differences with the `COOL` run: I have not suggest
 
 #### Step 1 - let’s recap the IMFs first
 
-| ![imfs_0.1-100](/run/user/1000/doc/ffd2fb76/imfs_0.1-100.png) | ![imfs_relative_0.1-100](/run/user/1000/doc/a5869322/imfs_relative_0.1-100.png) |
+| ![imfs_0.1-100](./Documentation/imfs_0.1-100.png) | ![imfs_relative_0.1-100](./Documentation/imfs_relative_0.1-100.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                    *Five different IMFs*                     |     *The relative weight of the IMFs, in Salpeter units*     |
 
