@@ -45,24 +45,26 @@ Additional files can be found [HERE](https://drive.google.com/drive/folders/1VIV
 
 The contents of the `Runs` folder is as follows
 
-| **Folder**              | sub folder         | Nr. of Part.    | Box (Mpc/h) |   Physics    |                   |              |              |                       |
-| ----------------------- | ------------------ | --------------- | :---------: | :----------: | :---------------: | :----------: | :----------: | :-------------------: |
-|                         | `box_`             |                 |             |  `COOLING`   | `METAL` `COOLING` |     `SF`     |    `SEv`     |        `WINDS`        |
-| `COOL`                  | `32p_5Mpc`         | $2\times32^3$   |      5      | $\checkmark$ |                   |              |              |                       |
-| `COOL_SF`               | `32p_5Mpc`         | $2\times32^3$   |      5      | $\checkmark$ |                   | $\checkmark$ |              |                       |
-| `COOL_SF_WINDS`         | `32p_5Mpc`         | $2\times32^3$   |      5      | $\checkmark$ |                   | $\checkmark$ |              |     $\checkmark$      |
-|                         | `64p_5Mpc`         | $2\times 64^3$  |      5      | $\checkmark$ |                   | $\checkmark$ |              |     $\checkmark$      |
-| `ZCOOL_SEv`             | `32p_5Mpc`         | $2\times 32^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ |                       |
-|                         | `64p_5Mpc`         | $2\times 64^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ |                       |
-| `ZCOOL_SEv_WINDS`       | `32p_5Mpc`         | $2\times 32^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ |     $\checkmark$      |
-|                         | `64p_5Mpc`         | $2\times 64^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ |     $\checkmark$      |
-|                         | `128p_5Mpc`        | $2\times 128^3$ |      5      |              |   $\checkmark$    |              | $\checkmark$ |     $\checkmark$      |
-|                         | `64p_10Mpc`        | $2\times 64^3$  |     10      |              |   $\checkmark$    |              | $\checkmark$ |     $\checkmark$      |
-|                         | `128p_20Mpc`       | $2\times 128^3$ |     20      |              |   $\checkmark$    |              | $\checkmark$ |     $\checkmark$      |
-|                         | `resolution_plots` |                 |             |              |                   |              |              |                       |
-|                         | `volume_plots`     |                 |             |              |                   |              |              |                       |
-| `ZCOOL_SEv_STRONGWINDS` | `32p_5Mpc`         | $2\times 32^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ | $\checkmark$ *strong* |
-|                         | `64p_5Mpc`         | $2\times 64^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ | $\checkmark$ *strong* |
+| **Folder**              | sub folder                              | Nr. of Part.    | Box (Mpc/h) |   Physics    |                   |              |              |                       |
+| ----------------------- | --------------------------------------- | --------------- | :---------: | :----------: | :---------------: | :----------: | :----------: | :-------------------: |
+| `Templates`             | `box_32p_5Mpc_template_COOL_SF_WINDS`   |                 |             |              |                   |              |              |                       |
+|                         | `box_32p_5Mpc_template_ZCOOL_SEv_WINDS` |                 |             |              |                   |              |              |                       |
+|                         | `box_`                                  |                 |             |  `COOLING`   | `METAL` `COOLING` |     `SF`     |    `SEv`     |        `WINDS`        |
+| `COOL`                  | `32p_5Mpc`                              | $2\times32^3$   |      5      | $\checkmark$ |                   |              |              |                       |
+| `COOL_SF`               | `32p_5Mpc`                              | $2\times32^3$   |      5      | $\checkmark$ |                   | $\checkmark$ |              |                       |
+| `COOL_SF_WINDS`         | `32p_5Mpc`                              | $2\times32^3$   |      5      | $\checkmark$ |                   | $\checkmark$ |              |     $\checkmark$      |
+|                         | `64p_5Mpc`                              | $2\times 64^3$  |      5      | $\checkmark$ |                   | $\checkmark$ |              |     $\checkmark$      |
+| `ZCOOL_SEv`             | `32p_5Mpc`                              | $2\times 32^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ |                       |
+|                         | `64p_5Mpc`                              | $2\times 64^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ |                       |
+| `ZCOOL_SEv_WINDS`       | `32p_5Mpc`                              | $2\times 32^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ |     $\checkmark$      |
+|                         | `64p_5Mpc`                              | $2\times 64^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ |     $\checkmark$      |
+|                         | `128p_5Mpc`                             | $2\times 128^3$ |      5      |              |   $\checkmark$    |              | $\checkmark$ |     $\checkmark$      |
+|                         | `64p_10Mpc`                             | $2\times 64^3$  |     10      |              |   $\checkmark$    |              | $\checkmark$ |     $\checkmark$      |
+|                         | `128p_20Mpc`                            | $2\times 128^3$ |     20      |              |   $\checkmark$    |              | $\checkmark$ |     $\checkmark$      |
+|                         | `resolution_plots`                      |                 |             |              |                   |              |              |                       |
+|                         | `volume_plots`                          |                 |             |              |                   |              |              |                       |
+| `ZCOOL_SEv_STRONGWINDS` | `32p_5Mpc`                              | $2\times 32^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ | $\checkmark$ *strong* |
+|                         | `64p_5Mpc`                              | $2\times 64^3$  |      5      |              |   $\checkmark$    |              | $\checkmark$ | $\checkmark$ *strong* |
 
 
 
