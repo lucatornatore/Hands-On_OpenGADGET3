@@ -1,0 +1,46 @@
+# 
+#
+# the number of metal bins and the bins (mass fraction)
+# Zbins
+1
+#
+# the number of mass bins
+# Mbins
+1
+#
+#
+# Thielemann et al. 2003 (Form Twilight to Highlight: The Physics of SN proceedings, ESO/MPA/MPE Workshop, pg 331) SNIa yields (W7)
+# Values given are the expected ejecta (in Solar Masses) from a Chandrsakhar Mass SN Ia
+# element m_ej
+H    0.0
+He   0.0
+Li   0.0
+Be   0.0
+B    0.0
+C    0.0504011
+N  4.95250e-07
+O     0.140000
+F  5.72000e-10
+Ne   0.00424851
+Na  6.20000e-05
+Mg    0.0131802
+Al  0.000817000
+Si     0.154227
+P  0.000315000
+S    0.0866313
+Cl  0.000162100
+Ar    0.0157370
+K  7.41300e-05
+Ca    0.0121345
+Sc  2.17000e-07
+Ti  0.000236665
+V  3.95046e-05
+Cr   0.00542240
+Mn   0.00654000
+Fe     0.769274
+Co  0.000766000
+Ni     0.113799
+Cu  2.36200e-06
+Zn  1.50134e-05
+Ej 1.37409
+#

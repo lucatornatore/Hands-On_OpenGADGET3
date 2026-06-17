@@ -1,0 +1,28 @@
+#!/bin/bash
+#SBATCH --partition=base
+#SBATCH --job-name=32_5_csf_bis
+#SBATCH --ntasks=8
+#SBATCH --ntasks-per-node=8
+#SBATCH --cpus-per-task=4  # usually, obviously, in the range[1-10]
+#SBATCH --nodes=1
+##SBATCH --mem-per-cpu=6gb
+#SBATCH -t 0-8:00 # time (D-HH:MM)
+#SBATCH -o slurm.%N.%j.out # STDOUT
+#SBATCH -e slurm.%N.%j.err # STDERR
+#SBATCH --account=test
+
+export MODULE_VERSION=5.0.1
+module purge
+source /opt/cluster/spack/share/spack/setup-env.sh
+module load default-gcc-11.2.0
+
+# other commands here ...
+#
+ROOT=/beegfs/ltornatore/HandsOn/
+export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
+echo $SLURM_NTASKS
+echo $SLURM_CPUS_PER_TASK
+echo $SLURM_TASKS_PER_NODE
+#mpirun -mca btl self,vader --map-by ppr:$SLURM_TASKS_PER_NODE:PE=${SLURM_NCPUS_PER_TASK} -np $SLURM_NTASKS --display-map ./CODE/P-Gadget3 paramfile_boxes_32.txt > out
+
+mpirun --map-by socket -np ${SLURM_NTASKS} ${ROOT}/OpenGadget3/OpenGADGET3.128pm.cool.sf.winds paramfile_box_32p_5L.txt > out

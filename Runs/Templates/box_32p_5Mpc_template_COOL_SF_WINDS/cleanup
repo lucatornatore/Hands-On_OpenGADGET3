@@ -1,0 +1,1 @@
+rm -f warnings.txt sfr_byZ.txt sfr_byrho.txt paramchanges.txt paramfile_box_64p_50L.txt-usedvalues IMFs.00 sn_init.txt  parameters-usedvalues  energy.txt balance-head.txt  timings.txt timebins.txt info.txt balance.txt slurm* out eos.txt sfrrate.txt timebin.txt timing.txt cpu.txt
